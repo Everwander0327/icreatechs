@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Static Login Page</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: aliceblue;
+        }
+        #main-header{
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Welcome to User Login</h1>
+    </header>
+    <section>
+        <h2>Login Form</h2>
+        <form action="user-info.php">
+        <div>
+        <label>Username:</label>
+        <input type="text" placeholder="Enter Your Username">
+        </div>
+        <br>
+        <div>
+        <label>Password:</label>
+        <input type="text" placeholder="Enter Your Password">
+        </div>
+        <br>
+        <button action="login.php">Login</button>
+        <br>
+        <br>
+        <small>No account yet? <a href="register.html">Register Here</a></small>   
+    </form>
+    </section>
+    <br>
+    <footer>Copyright &copy;Neko 2025</footer>
+</body>
+</html>

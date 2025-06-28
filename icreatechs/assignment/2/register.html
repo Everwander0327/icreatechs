@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Static Register Page</title>
+    <style>
+        *{
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to User Registration</h1>
+    </header>
+    <section>
+        <h2>Register Form</h2>
+        <form action="register.php">
+            <div>
+                <label>Username:</label>
+                <input type="text" name="Username" placeholder="Enter Username">
+            </div>
+            <br>
+            <div>
+                <label>Password:</label>
+                <input type="text" name="Password" placeholder="Enter Password">
+            </div>
+            <br>
+            <div>
+                <label>Email:</label>
+                <input type= "email" name="Email" placeholder="Enter email">
+               
+                <button>Verify Email</button>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type= "number" name="age" value="18">
+            </div>
+            <br>
+            <div>
+                <p>Select your Gender:</p>
+                <input name="Gender" type= "radio" value="male">
+                <label>Male</label>
+                <br>
+                <input name="Gender" type= "radio" value="female">
+                <label>Female</label>
+                <br>
+                <input name="Gender" type= "radio" value="female">
+                <label>Other</label>
+            </div>
+            <br>
+            <div>
+                <label>Positon</label>
+                <select name="Positon">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="officer">Officer</option>
+                </select>
+            </div>
+            <br>
+           
+            <div>
+            <p>Valid Id:</p>
+            <input type="checkbox" name="id">
+            <label>National Id</label>
+            <br>
+            <input type="checkbox" name="id">
+            <label>Voters Id</label>
+            <br>
+            <input type="checkbox" name="id">
+            <label>Student Id</label>
+            <button>Submit</button>
+            </div>
+        </form>
+        <br>
+        <button>Register</button>
+        <br>
+        <br>
+        <small>Already have an account? <a href="index.html">Login here</a></small>
+    </section>
+    <br>
+    <footer>Copyright &copy;Neko 2025</footer>
+</body>
+</html>
